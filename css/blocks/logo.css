@@ -9,6 +9,12 @@
     color: var(--basic-dark-blue);
 }
 
+.logo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 600px) {
     .logo__svg {
         fill: var(--basic-dark-blue);
@@ -17,8 +23,9 @@
     }
 
     .logo__caption {
-        font-size: 8px;
+        font-size: 7px;
         font-weight: 700;
+        line-height: 14px;
     }
 
     .logo--footer .logo__svg {
