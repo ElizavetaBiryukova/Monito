@@ -1,0 +1,22 @@
+.caption__title {
+    color: var(--basic-dark-blue);
+    text-transform: capitalize;
+}
+
+.caption__question {
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .caption__question {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .caption__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+    }
+}

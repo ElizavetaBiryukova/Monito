@@ -1,0 +1,37 @@
+.subcribe {
+    background: var(--basic-dark-blue);
+    border-radius: 16px;
+    color: var(--basic-grey);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.subcribe__form {
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+
+.subcribe__input {
+    border: 1px solid var(--dark-grey);
+    border-radius: 8px;
+    color: var(--dark-grey);
+    font-weight: 500;
+}
+
+.subcribe__button {
+    background: var(--basic-dark-blue);
+    color: var(--basic-grey);
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .subcribe {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .subcribe__input {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,23 @@
+@import "./global/fonts.css";
+@import "./global/normalize.css";
+@import "./global/variables.css";
+@import "./global/visually-hidden.css";
+
+@import "./blocks/page.css";
+@import "./blocks/header.css";
+@import "./blocks/menu.css";
+@import "./blocks/nav.css";
+@import "./blocks/search.css";
+@import "./blocks/burger.css";
+@import "./blocks/logo.css";
+@import "./blocks/intro.css";
+@import "./blocks/caption.css";
+@import "./blocks/catalog.css";
+@import "./blocks/card.css";
+@import "./blocks/products.css";
+@import "./blocks/brends.css";
+@import "./blocks/knowledge.css";
+@import "./blocks/view.css";
+@import "./blocks/footer.css";
+@import "./blocks/subcribe.css";
+@import "./blocks/icons.css";
