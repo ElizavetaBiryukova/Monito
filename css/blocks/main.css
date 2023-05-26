@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:600px) {
+    .main {
+        margin: 25px 16px;
+    }
+}

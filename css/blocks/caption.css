@@ -5,6 +5,7 @@
 
 .caption__question {
     color: black;
+    font-weight: 500;
 }
 
 @media (max-width: 600px) {
@@ -12,11 +13,14 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
+        margin-bottom: 0px;
     }
 
     .caption__title {
         font-weight: 700;
         font-size: 20px;
         line-height: 32px;
+        margin-top: 0px;
+        margin-bottom: 8px;
     }
 }

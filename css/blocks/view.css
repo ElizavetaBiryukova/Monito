@@ -1,19 +1,26 @@
 .view {
     border: 1.5px solid var(--basic-dark-blue);
     border-radius: 57px;
-
 }
 
 .view__link {
     text-decoration: none;
     color: var(--basic-dark-blue);
     text-transform: inherit;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 @media (max-width: 600px) {
     .view__link {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .view {
+        text-align: center;
+    }
+
+    .view__sign {
+        padding: 10px 20%;
     }
 }
