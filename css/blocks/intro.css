@@ -65,9 +65,14 @@
 
 .intro--blue {
     background-color: var(--basic-dark-blue);
+    background-image: url("../../images/girl_being_love_with_her_dog_2.png"),
+        url("../../images/background-dark-blue.svg"),
+        url("../../images//background-light.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom, 48% -123%, 57% 453%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .intro {
         padding: 0px 15px;
     }
@@ -95,7 +100,54 @@
     }
 
     .intro__title {
+        position: relative;
         margin-bottom: 5px;
+    }
+
+    .intro--yellow .intro__title::after {
+        content: '';
+        position: absolute;
+        top: 73px;
+        right: 76px;
+        width: 12.5px;
+        height: 12.5px;
+        background-color: var(--basic-dark-blue);
+        box-sizing: border-box;
+        border: 1px solid var(--basic-dark-blue);
+        border-radius: 4px;
+        transform: rotate(-9.62deg);
+    }
+
+    .intro--yellow .intro__title::before {
+        content: '';
+        position: absolute;
+        top: 66px;
+        right: 70px;
+        width: 16px;
+        height: 16px;
+        background-color: var(--yellow);
+        box-sizing: border-box;
+        border: 1px solid var(--yellow);
+        border-radius: 4px;
+        transform: rotate(-9.62deg);
+    }
+
+    .intro--yellow {
+        position: relative;
+    }
+
+    .intro--yellow::after {
+        content: '';
+        position: absolute;
+        top: 66px;
+        right: 37px;
+        width: 16px;
+        height: 16px;
+        background-color: var(--yellow);
+        box-sizing: border-box;
+        border: 1px solid var(--yellow);
+        border-radius: 4px;
+        transform: rotate(-9.62deg);
     }
 
     .intro__buttons {
@@ -112,6 +164,8 @@
         flex-direction: column;
         align-items: center;
         padding-top: 7px;
+        padding-bottom: 341px;
+        margin-bottom: 28px;
     }
 
     .intro--blue .intro__string--big {
@@ -127,5 +181,31 @@
 
     .intro--blue .intro__buttons {
         margin-bottom: 31px;
+    }
+
+    .intro--blue .intro__desription {
+        text-align: center;
+    }
+}
+
+@media (max-width: 370px) {
+    .intro__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro--blue {
+        background-color: var(--basic-dark-blue);
+        background-image: url("../../images/girl_being_love_with_her_dog_2.png"),
+            url("../../images/background-dark-blue.svg"),
+            url("../../images//background-light.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center bottom, 47% -236%, 77% -207%;
+    }
+}
+
+@media (min-width: 516px) {
+    .intro--blue {
+        background-color: var(--light-yellow);
     }
 }

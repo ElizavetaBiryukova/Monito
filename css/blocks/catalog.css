@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-@media (max-width:600px) {
+@media (max-width:780px) {
     .catalog__cards {
         display: grid;
         grid-template-columns: 1fr 1fr;

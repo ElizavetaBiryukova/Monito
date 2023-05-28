@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .logo__svg {
         fill: var(--basic-dark-blue);
         width: 92px;
@@ -31,5 +31,9 @@
     .logo--footer .logo__svg {
         width: 115px;
         height: 27px;
+    }
+
+    .logo--footer {
+        margin-bottom: 20px;
     }
 }

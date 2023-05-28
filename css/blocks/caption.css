@@ -8,7 +8,7 @@
     font-weight: 500;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .caption__question {
         font-weight: 500;
         font-size: 14px;

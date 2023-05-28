@@ -10,7 +10,7 @@
     font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .view__link {
         font-size: 16px;
         line-height: 24px;

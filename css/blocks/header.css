@@ -1,17 +1,18 @@
 .header {
     display: flex;
     flex-direction: column;
-    /* background: var(--light-yellow) url("../../images/good_mobile_1.png") no-repeat center bottom; */
     background-color: var(--light-yellow);
     background-image: url("../../images/good_mobile_1.png"),
-    linear-gradient(100deg, var(--yellow), var(--yellow));
-    background-repeat: no-repeat, no-repeat;
-    background-position: center bottom, center top;
+    url("../../images/background.svg"),
+    url("../../images/background.svg"),
+    url("../../images/background-blue.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom, 88% -669%, -8% 453%, -13% 243%;
     border-radius: 0px 0px 20px 20px;
 }
 
 
-@media (max-width:600px) {
+@media (max-width:780px) {
     .header {
         padding: 0px 0px 372px 0px;
     }

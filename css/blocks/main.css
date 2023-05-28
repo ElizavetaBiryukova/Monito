@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media (max-width:600px) {
+@media (max-width:780px) {
     .main {
         margin: 25px 16px;
     }
