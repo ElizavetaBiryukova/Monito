@@ -1,19 +1,17 @@
-@media (max-width: 780px) {
-    .pets {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 42px;
-    }
+.pets {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
 
-    .pets__text {
-        order: 0;
-    }
+.pets__text {
+    order: 0;
+}
 
-    .pets__catalog {
-        order: 1;
-    }
+.pets__catalog {
+    order: 1;
+}
 
-    .pets__view {
-        order: 2;
-    }
+.pets__view {
+    order: 2;
 }

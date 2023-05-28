@@ -1,6 +1,3 @@
-@media (max-width: 780px) {
-    .products {
-        display: none;
-    }
-
+.products {
+    display: none;
 }

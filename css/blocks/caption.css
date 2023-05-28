@@ -1,26 +1,18 @@
 .caption__title {
     color: var(--basic-dark-blue);
     text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 .caption__question {
     color: black;
     font-weight: 500;
-}
-
-@media (max-width: 780px) {
-    .caption__question {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 0px;
-    }
-
-    .caption__title {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 32px;
-        margin-top: 0px;
-        margin-bottom: 8px;
-    }
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0px;
 }

@@ -1,14 +1,9 @@
 .catalog__cards {
     list-style-type: none;
     padding: 0%;
-}
-
-@media (max-width:780px) {
-    .catalog__cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        row-gap: 12px;
-        margin-bottom: 20px;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 12px;
+    margin-bottom: 20px;
 }

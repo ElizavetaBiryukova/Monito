@@ -4,11 +4,19 @@
     color: var(--basic-grey);
     font-weight: 700;
     text-transform: capitalize;
+    font-size: 20px;
+    line-height: 32px;
+    width: 92%;
+    margin: 39px auto 23px auto;
 }
 
 .subcribe__form {
     background: #FFFFFF;
     border-radius: 14px;
+    width: 92%;
+    margin: 0px auto 15px auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .subcribe__input {
@@ -16,49 +24,21 @@
     border-radius: 8px;
     color: var(--dark-grey);
     font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 12px;
+    padding: 13px 14px;
 }
 
 .subcribe__button {
     background: var(--basic-dark-blue);
     color: var(--basic-grey);
     border-radius: 8px;
+    margin: 0px 12px 12px 12px;
+    padding: 11px 14px;
 }
 
-.subcribe__form {
-    display: flex;
-    flex-direction: column;
-}
-
-@media (max-width: 780px) {
-    .subcribe {
-        font-size: 20px;
-        line-height: 32px;
-        width: 92%;
-        margin: 39px auto 23px auto;
-    }
-
-    .subcribe__input {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .subcribe__title {
-        margin: 17px 0px 16px 0px;
-        padding: 0px 13px;
-    }
-
-    .subcribe__form {
-        width: 92%;
-        margin: 0px auto 15px auto;
-    }
-
-    .subcribe__input {
-        margin: 12px;
-        padding: 13px 14px;
-    }
-
-    .subcribe__button {
-        margin: 0px 12px 12px 12px;
-        padding: 11px 14px;
-    }
+.subcribe__title {
+    margin: 17px 0px 16px 0px;
+    padding: 0px 13px;
 }
