@@ -55,3 +55,38 @@
 .footer__logo {
     order: 1;
 }
+
+@media (min-width: 1279px) {
+    .footer__wrapper {
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    .footer__menu {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--basic-dark-blue);
+    }
+
+    .footer__nav-list {
+        display: flex;
+        gap: 60px;
+    }
+
+    .footer__info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__copyright {
+        order: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer__logo {
+        order: 1;
+    }
+
+
+}

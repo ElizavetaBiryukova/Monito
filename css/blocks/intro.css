@@ -77,7 +77,7 @@
     background-position: center bottom, 48% -123%, 57% 453%;
 }
 
-.intro--none {
+.intro--adoption {
     display: none;
 }
 
@@ -240,5 +240,57 @@
         position: absolute;
         top: 57px;
         right: 581px;
+    }
+
+    .intro--blue {
+        align-items: flex-end;
+        padding-right: 78px;
+        padding-bottom: 9px;
+        background-position: left bottom, -150% -14%, top 89% right -22%;
+        background-color: var(--basic-dark-blue);
+        max-width: 1180px;
+        margin: 40px auto 44px;
+    }
+
+    .intro--blue .intro__string--big {
+        font-size: 52px;
+        line-height: 68px;
+        text-align: right;
+    }
+
+    .intro--blue .intro__string {
+        font-size: 36px;
+        line-height: 54px;
+        text-align: right;
+    }
+
+    .intro--blue .intro__desription {
+        text-align: right;
+    }
+
+    .intro--adoption {
+        display: block;
+        background-color: #FFB775;
+        background-image: url("../../images/hug.png"),
+            url("../../images//background-light.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: right bottom, -21% 20%;
+        padding: 0px 0px 30px 0px;
+        margin: 0px auto 50px;
+        max-width: 1180px;
+        width: 100%;
+    }
+
+    .intro--adoption .intro__title {
+        background: top 20% left 28%  url("../../images/icons/paw.svg") no-repeat;
+        margin-left: 25px;
+    }
+
+    .intro--adoption .intro__desription {
+        margin-left: 25px;
+    }
+
+    .intro--adoption .intro__buttons {
+        margin-left: 25px;
     }
 }

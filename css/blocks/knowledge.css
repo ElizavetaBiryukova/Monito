@@ -37,7 +37,7 @@
 }
 
 .knowledge__view {
-    order: 2
+    order: 2;
 }
 
 .knowledge__image {
@@ -57,4 +57,26 @@
     margin-top: 6px;
     font-size: 14px;
     line-height: 20px;
+}
+
+@media (min-width: 1279px) {
+    .knowledge {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    .knowledge__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        order: 2;
+    }
+
+    .knowledge__view {
+        order: 1;
+    }
 }

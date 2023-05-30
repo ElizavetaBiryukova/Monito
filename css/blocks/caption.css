@@ -31,4 +31,14 @@
         font-size: 24px;
         line-height: 36px;
     }
+
+    .caption--line {
+        display: flex;
+        gap: 5px;
+    }
+
+    .caption--line .caption__title {
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
 }
