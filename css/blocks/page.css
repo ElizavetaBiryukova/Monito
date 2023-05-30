@@ -5,5 +5,10 @@
     line-height: 24px;
     color: var(--light-black);
     background-color: var(--basic-grey);
+    scroll-behavior: smooth;
 }
 
+.page__body {
+    min-height: 100%;
+    margin: 0;
+}

@@ -28,18 +28,19 @@
 }
 
 .intro__button {
-    width: 163px;
+    min-width: 163px;
     box-sizing: border-box;
     border: 1.5px solid var(--basic-dark-blue);
     border-radius: 57px;
     text-transform: capitalize;
     text-align: center;
+    padding: 10px;
 }
 
 .intro__button--view {
     color: var(--basic-dark-blue);
     position: relative;
-
+    padding-left: 0px;
 }
 
 .intro__button--view::after {
@@ -144,11 +145,6 @@
     transform: rotate(-9.62deg);
 }
 
-
-.intro__button {
-    padding: 10px;
-}
-
 .intro--blue {
     display: flex;
     flex-direction: column;
@@ -197,5 +193,52 @@
 @media (min-width: 516px) {
     .intro--blue {
         background-color: var(--light-yellow);
+    }
+}
+
+@media (min-width: 1279px) {
+    .intro__title {
+        background: top left url("../../images/background_title.svg") no-repeat;
+    }
+
+    .intro__string--big {
+        font-size: 60px;
+        line-height: 68px;
+        margin-bottom: 10px;
+    }
+
+    .intro--yellow {
+        margin-top: 57px;
+    }
+
+    .intro__string {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .intro__desription {
+        width: 40%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+
+    .intro--yellow .intro__title::before {
+        position: absolute;
+        top: 66px;
+        right: 598px;
+    }
+
+
+    .intro--yellow .intro__title::after {
+        position: absolute;
+        top: 66px;
+        right: 607px;
+    }
+
+    .intro--yellow::after {
+        position: absolute;
+        top: 57px;
+        right: 581px;
     }
 }

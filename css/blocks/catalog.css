@@ -7,3 +7,12 @@
     row-gap: 12px;
     margin-bottom: 20px;
 }
+
+@media (min-width: 1279px) {
+    .catalog__cards {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 25px;
+        column-gap: 20px;
+        margin: 22px auto 20px auto;
+    }
+}

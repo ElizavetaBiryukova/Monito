@@ -1,0 +1,7 @@
+@media (min-width: 1279px) {
+    .currency {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+}

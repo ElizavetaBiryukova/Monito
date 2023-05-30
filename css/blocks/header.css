@@ -11,3 +11,21 @@
     border-radius: 0px 0px 20px 20px;
     padding: 0px 0px 372px 0px;
 }
+
+@media (min-width: 1279px) {
+    .header {
+        padding: 0px 145px 167px 114px;
+        background-image: url("../../images/girl_being_love_with_her_dog_1.png"),
+        url("../../images/background.svg"),
+        url("../../images/background.svg"),
+        url("../../images/background-blue.svg");
+        background-position: right 7% bottom -568%, -30% -2404%, 85% 950%, 72% 243%;
+    }
+
+    .header__menu,
+    .header__intro {
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+    }
+}

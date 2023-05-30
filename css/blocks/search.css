@@ -11,11 +11,44 @@
     overflow: hidden;
     visibility: hidden;
     transform: translateX(150%);
-    transition: transform 1s ease, visibility 0s 1s, opacity 0s 1s, width 0s 1s, height 0s 1s, margin 0s 1s, padding 0s 1s;
 }
 
 .search__svg {
     width: 23px;
     height: 23px;
     fill: var(--black)
+}
+
+@media (min-width: 1279px) {
+    .search__input {
+        visibility: visible;
+        overflow: visible;
+        opacity: 1;
+        width: 100%;
+        max-width: 280px;
+        height: 100%;
+        max-height: 44px;
+        transform: translateX(0%);
+        background-color: var(--basic-grey);
+        color: var(--dark-grey);
+        border-radius: 46px;
+        padding-left: 48px;
+        padding-right: 12px;
+        position: relative;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .search {
+        position: relative;
+        width: max-content;
+    }
+
+    .search__logo {
+        position: absolute;
+        z-index: 2;
+        top: 8px;
+        right: 190px;
+    }
 }

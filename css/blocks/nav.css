@@ -13,3 +13,32 @@
     transform: translateX(150%);
     transition: transform 1s ease, visibility 0s 1s, opacity 0s 1s, width 0s 1s, height 0s 1s, margin 0s 1s, padding 0s 1s;
 }
+
+@media (min-width: 1279px) {
+    .nav {
+        visibility: visible;
+        overflow: visible;
+        opacity: 1;
+        width: 30%;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+        transform: translateX(0%);
+    }
+
+    .nav__list {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0%;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        color: var(--basic-dark-blue);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

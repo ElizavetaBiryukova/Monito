@@ -16,3 +16,9 @@
 .view__sign {
     padding: 10px 20%;
 }
+
+@media (min-width: 1279px) {
+    .view {
+        min-width:25%
+    }
+}
