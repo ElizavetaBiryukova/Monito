@@ -173,6 +173,19 @@
     text-align: center;
 }
 
+.intro__link:hover .intro__button--view,
+.intro__link:focus .intro__button--view {
+    background-color: var(--yellow);
+    color: var(--blue);
+    transition: all 0.5s;
+}
+
+.intro__link:hover .intro__button--explore,
+.intro__link:focus .intro__button--explore {
+    background-color: var(--blue);
+    transition: all 0.5s;
+}
+
 
 @media (max-width: 370px) {
     .intro__buttons {

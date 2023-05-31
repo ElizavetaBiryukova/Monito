@@ -43,6 +43,17 @@
     padding: 0px 13px;
 }
 
+.subcribe__button:hover,
+.subcribe__button:focus {
+    background-color: var(--blue);
+    background: var(--blue);
+    transition: all 0.5;
+}
+
+.subcribe__input:hover,
+.subcribe__button:focus {
+    border: 1px solid var(--dark-yellow);
+}
 
 @media (min-width: 1279px) {
     .subcribe {

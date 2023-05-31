@@ -19,6 +19,12 @@
     fill: var(--black)
 }
 
+.search:hover .search__svg,
+.search:focus .search__svg {
+    fill: var(--blue);
+    transition: all 0.5s;
+}
+
 @media (min-width: 1279px) {
     .search__input {
         visibility: visible;

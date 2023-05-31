@@ -21,6 +21,11 @@
     order: 2;
 }
 
+.menu__join-community:hover,
+.menu__join-community:focus {
+    background-color: var(--blue);
+    transition: all 0.5s;
+}
 
 @media (min-width: 1279px) {
     .menu {

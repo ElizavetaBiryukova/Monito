@@ -17,6 +17,17 @@
     padding: 10px 20%;
 }
 
+.view:hover,
+.view:focus {
+    background-color: var(--basic-dark-blue);
+}
+
+.view__link:hover,
+.view__link:focus {
+    color: var(--light-grey);
+}
+
+
 @media (min-width: 1279px) {
     .view {
         min-width: 23%
