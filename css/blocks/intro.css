@@ -75,6 +75,28 @@
         url("../../images//background-light.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center bottom, 48% -123%, 57% 453%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 341px;
+    margin-bottom: 28px;
+}
+
+.intro--category {
+    background-color: var(--basic-dark-blue);
+    background-image: url("../../images/girl_being_love_with_her_dog_2.png"),
+        url("../../images/background-dark-blue.svg"),
+        url("../../images//background-light.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom, 48% -123%, 57% 453%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 341px;
+    margin-bottom: 28px;
+
 }
 
 .intro--adoption {
@@ -145,31 +167,26 @@
     transform: rotate(-9.62deg);
 }
 
-.intro--blue {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 7px;
-    padding-bottom: 341px;
-    margin-bottom: 28px;
-}
-
-.intro--blue .intro__string--big {
+.intro--blue .intro__string--big,
+.intro--category .intro__string--big {
     font-size: 36px;
     line-height: 54px;
 }
 
-.intro--blue .intro__string {
+.intro--blue .intro__string,
+.intro--category .intro__string {
     font-size: 24px;
     line-height: 36px;
     text-align: center;
 }
 
-.intro--blue .intro__buttons {
+.intro--blue .intro__buttons,
+.intro--category .intro__buttons {
     margin-bottom: 31px;
 }
 
-.intro--blue .intro__desription {
+.intro--blue .intro__desription,
+.intro--category .intro__desription {
     text-align: center;
 }
 
@@ -255,7 +272,8 @@
         right: 581px;
     }
 
-    .intro--blue {
+    .intro--blue,
+    .intro--category {
         align-items: flex-end;
         padding-right: 78px;
         padding-bottom: 9px;
@@ -265,19 +283,22 @@
         margin: 40px auto 44px;
     }
 
-    .intro--blue .intro__string--big {
+    .intro--blue .intro__string--big,
+    .intro--category .intro__string--big {
         font-size: 52px;
         line-height: 68px;
         text-align: right;
     }
 
-    .intro--blue .intro__string {
+    .intro--blue .intro__string,
+    .intro--category .intro__string {
         font-size: 36px;
         line-height: 54px;
         text-align: right;
     }
 
-    .intro--blue .intro__desription {
+    .intro--blue .intro__desription,
+    .intro--category .intro__desription {
         text-align: right;
     }
 
@@ -295,7 +316,7 @@
     }
 
     .intro--adoption .intro__title {
-        background: top 20% left 28%  url("../../images/icons/paw.svg") no-repeat;
+        background: top 20% left 28% url("../../images/icons/paw.svg") no-repeat;
         margin-left: 25px;
     }
 
