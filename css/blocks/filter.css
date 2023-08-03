@@ -1,0 +1,18 @@
+.filter__panel {
+    display: none;
+}
+
+.filter__title {
+    position: relative;
+    font-size: 18px;
+}
+
+.filter__title::before {
+    position: absolute;
+    content: '';
+    background-image: url(../../images/icons/filter.svg);
+    width: 5%;
+    height: 80%;
+    left: -23px;
+    top: 2px;
+}

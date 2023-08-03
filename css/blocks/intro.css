@@ -85,16 +85,16 @@
 
 .intro--category {
     background-color: var(--basic-dark-blue);
-    background-image: url("../../images/girl_being_love_with_her_dog_2.png"),
+    background-image: url("../../images/group-portrait-adorable-puppies_mob.png"),
         url("../../images/background-dark-blue.svg"),
         url("../../images//background-light.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center bottom, 48% -123%, 57% 453%;
+    background-position: center bottom, 48% -123%, 57% 130%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 7px;
-    padding-bottom: 341px;
+    padding-bottom: 150px;
     margin-bottom: 28px;
 
 }
@@ -202,7 +202,6 @@
     background-color: var(--blue);
     transition: all 0.5s;
 }
-
 
 @media (max-width: 370px) {
     .intro__buttons {
