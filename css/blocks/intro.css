@@ -282,6 +282,17 @@
         margin: 40px auto 44px;
     }
 
+    .intro--category {
+        margin-top: 0px;
+        color: white;
+        background-color: var(--light-yellow);
+        background-position: left bottom, 830% 67%, top 90% right -22%;
+    }
+
+    .intro--category .intro__title {
+        color: white;
+    }
+
     .intro--blue .intro__string--big,
     .intro--category .intro__string--big {
         font-size: 52px;
@@ -325,5 +336,16 @@
 
     .intro--adoption .intro__buttons {
         margin-left: 25px;
+    }
+
+    .intro--category .intro__button--view {
+        color: white;
+        border-color: white;
+    }
+
+    .intro--category .intro__button--explore {
+        color: var(--basic-dark-blue);
+        border-color: white;
+        background-color: white;
     }
 }

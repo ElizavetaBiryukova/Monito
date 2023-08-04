@@ -34,4 +34,8 @@
         width: 100%;
         margin: auto;
     }
+
+    .header--category {
+        padding: 0px 145px 14px 114px;
+    }
 }

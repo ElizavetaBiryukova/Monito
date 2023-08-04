@@ -56,7 +56,13 @@
     order: 1;
 }
 
-
+.footer__link {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
 
 @media (min-width: 1279px) {
     .footer__wrapper {

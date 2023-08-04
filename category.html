@@ -150,7 +150,7 @@
 
                     <div class="filter__color">
                         <h3 class="filter__color-title">Color</h3>
-                        <label class="filter__label"><input type="checkbox" class="filter__checkbox"> Red</label>
+                        <label class="filter__label"><input type="checkbox" class="filter__checkbox">Red</label>
                         <label class="filter__label"><input type="checkbox" class="filter__checkbox"> Apricat</label>
                         <label class="filter__label"><input type="checkbox" class="filter__checkbox"> Black</label>
                         <label class="filter__label"><input type="checkbox" class="filter__checkbox"> Black &
@@ -161,8 +161,8 @@
 
                     <div class="filter__price">
                         <h3 class="filter__price-title">Price</h3>
-                        <input type="number" placeholder="Min">
-                        <input type="number" placeholder="Max">
+                        <input class="filter__price-input" type="number" placeholder="Min">
+                        <input class="filter__price-input" type="number" placeholder="Max">
                     </div>
 
                     <div class="filter__breed">
@@ -176,13 +176,16 @@
         </section>
 
         <section class="pets">
-            <h2 class="pets__title">Small Dog</h2>
-            <p class="pets__quantity">52 puppies</p>
+            <div class="pets__caption">
+                <h2 class="pets__title">Small Dog</h2>
+                <p class="pets__quantity">52 puppies</p>
+            </div>
             <div class="pets__sort">
                 Sort by: Popular
+                <div class="pets__mark">^</div>
             </div>
 
-            <ul class="pets__catalog catalog__cards">
+            <ul class="pets__catalog catalog__cards catalog__cards--category">
                 <li class="catalog__card card">
                     <img src="./images/pets/image_1.png" alt="dog" class="card__img">
                     <div class="card__text">
@@ -487,7 +490,7 @@
 
             <div class="pets__pages pages">
                 <div class="pages__arrow">←</div>
-                <div class="pages__number">1</div>
+                <div class="pages__number pages__number--current">1</div>
                 <div class="pages__number">2</div>
                 <div class="pages__number">3</div>
                 <div class="pages__number">4</div>
@@ -513,8 +516,8 @@
             <div class="footer__menu ">
                 <nav class="footer__nav">
                     <ul class="footer__nav-list">
-                        <li class="footer__nav-item">Home</li>
-                        <li class="footer__nav-item">Category</li>
+                        <li class="footer__nav-item"><a href="./index.html" class="footer__link">Home</a></li>
+                        <li class="footer__nav-item"><a href="./category.html" class="footer__link">Category</a></li>
                         <li class="footer__nav-item">About</li>
                         <li class="footer__nav-item">Contact</li>
                     </ul>
