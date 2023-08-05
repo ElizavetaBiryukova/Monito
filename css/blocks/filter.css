@@ -25,6 +25,13 @@
 }
 
 @media (min-width: 1279px) {
+    .filter {
+        position: absolute;
+        width: 10%;
+        top: 486px;
+        left: 20px;
+    }
+
     .filter__title::before {
         display: none;
     }
@@ -60,5 +67,9 @@
         border: none;
         border-bottom: 1px solid var(--grey);
 
+    }
+
+    .filter__checkbox {
+        margin-right: 5px;
     }
 }

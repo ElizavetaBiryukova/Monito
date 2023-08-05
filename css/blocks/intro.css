@@ -223,6 +223,15 @@
     .intro--blue {
         background-color: var(--light-yellow);
     }
+
+    .intro--category {
+        background-image: url("../../images/group-portrait-adorable-puppies_mob.png"),
+            url("../../images/background-dark-blue.svg"),
+            url("../../images/background-light.svg"),
+            url("../../images/background-light.svg");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center bottom, 48% -123%, 13% 144%, 98% 121%;
+    }
 }
 
 @media (min-width: 1279px) {
@@ -347,5 +356,19 @@
         color: var(--basic-dark-blue);
         border-color: white;
         background-color: white;
+    }
+
+    .intro__button--view::after {
+        border: 1.5px solid white;
+    }
+}
+
+@media (min-width: 1324px) {
+    .intro--category {
+        background-color: var(--basic-dark-blue);
+        background-image: url("../../images/group-portrait-adorable-puppies_mob.png"),
+            url("../../images/background-dark-blue.svg"),
+            url("../../images/background-light.svg");
+        background-position: left bottom, 48% -123%, -42% 115%;
     }
 }

@@ -28,7 +28,7 @@
 
 .pets__mark {
     font-size: 25px;
-    vertical-align:middle;
+    vertical-align: middle;
     transform: rotate(180deg);
     height: 20px;
 }
@@ -77,5 +77,15 @@
         justify-content: space-between;
         max-width: 1180px;
         margin: auto;
+    }
+
+    .pets--category {
+        width: 85%;
+        margin-right: 0px;
+    }
+
+
+    .pets__sort {
+        position: relative;
     }
 }

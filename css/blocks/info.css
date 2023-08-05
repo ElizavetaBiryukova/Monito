@@ -1,0 +1,15 @@
+/* .info__table {
+    border: none;
+} */
+
+.info__body {
+    border: 1px solid var(--basic-dark-blue);
+}
+
+.info__line {
+    border-collapse: collapse;
+    border-spacing: 20px;
+    border-top: 1px solid var(--basic-dark-blue);
+    border-color: var(--basic-dark-blue);
+    /* background: red; */
+}

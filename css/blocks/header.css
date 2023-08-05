@@ -18,6 +18,10 @@
     padding: 0px;
 }
 
+.header--product {
+    display: none;
+}
+
 @media (min-width: 1279px) {
     .header {
         padding: 0px 145px 167px 114px;

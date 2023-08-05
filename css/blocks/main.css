@@ -6,6 +6,14 @@
 
 @media (min-width: 1279px) {
     .main {
+        position: relative;
         margin: 42px 130px 25px 130px;
+    }
+}
+
+@media (min-width: 1324px) {
+    .main {
+        max-width: 1200px;
+        margin: auto;
     }
 }
