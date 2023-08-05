@@ -1,15 +1,19 @@
-/* .info__table {
-    border: none;
-} */
+.info {
+    margin-top: 25px;
+}
 
-.info__body {
-    border: 1px solid var(--basic-dark-blue);
+.info__table {
+    color: var(--darkest-grey);
+    border-collapse: collapse;
 }
 
 .info__line {
     border-collapse: collapse;
     border-spacing: 20px;
-    border-top: 1px solid var(--basic-dark-blue);
-    border-color: var(--basic-dark-blue);
-    /* background: red; */
+    border-bottom: 1px solid var(--grey);
+    height: 45px;
+}
+
+.info__column {
+    width: 50%;
 }

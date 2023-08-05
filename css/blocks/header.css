@@ -42,4 +42,8 @@
     .header--category {
         padding: 0px 145px 14px 114px;
     }
+
+    .header--product {
+        display: block;
+    }
 }
